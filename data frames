@@ -1,0 +1,10 @@
+df <- data.frame(
+  name = c("John", "Jane", "Jim"),
+  age = c(30, 25, 35),
+  job = c("Teacher", "Doctor", "Engineer")
+)
+
+df[2, 2]
+df$age
+
+summary(df)
