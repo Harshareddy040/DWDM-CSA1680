@@ -1,0 +1,5 @@
+is_armstrong_number <- function(x) {
+  num_digits <- nchar(as.character(x))
+  sum_of_digits <- sum(as.integer(strsplit(as.character(x), "")[[1]])^num_digits)
+  return (sum_of_digits == x)
+}
