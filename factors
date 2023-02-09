@@ -1,0 +1,4 @@
+x <- c("red", "blue", "green", "red", "blue")
+x_factor <- factor(x)
+levels(x_factor)
+as.character(x_factor)
